@@ -12,6 +12,7 @@ const URL = `mongodb+srv://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}?retry
 
 
 /*
+
 Modelo (termino de mongoose)
     Es una interfa para comunicarnos con la BD
         - crear
@@ -24,7 +25,8 @@ Schema:
     Nos permitirá definir la estructura de los documentos
     - Que campos (name. lastName, age, ...)
     - Validaciones (requerido, )
-    - restricciones
+    - Restricciones
+
 */
 
 // Schema de Koders
